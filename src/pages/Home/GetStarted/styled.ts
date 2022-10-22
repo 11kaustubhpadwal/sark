@@ -19,6 +19,7 @@ export const joinButton = {
     background: "#000",
   },
   marginRight: "1.375rem",
+  textTransform: "none",
 };
 
 export const learnMoreButton = {
@@ -27,4 +28,5 @@ export const learnMoreButton = {
   background: "#fff",
   color: "#000",
   border: ".063rem solid #A1A1AA",
+  textTransform: "none",
 };

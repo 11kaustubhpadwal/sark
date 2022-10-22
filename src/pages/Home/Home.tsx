@@ -1,4 +1,5 @@
 import { Box } from "@mui/material";
+import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import CardsFeature from "./CardsFeature";
 import GetStarted from "./GetStarted";
@@ -17,6 +18,7 @@ const Home = () => {
       <CardsFeature />
       <Stats />
       <GetStarted />
+      <Footer />
     </Box>
   );
 };
