@@ -1,4 +1,13 @@
-export const navLinkItem = { fontWeight: 500, color: "#12141D" };
+export const navLinkItem = {
+  fontWeight: 500,
+  color: "#12141D",
+  cursor: "pointer",
+  ":hover": {
+    transform: "scale(1.1)",
+    borderBottom: ".25rem solid #12141D",
+    paddingBottom: ".5rem",
+  },
+};
 
 export const signInButton = { textTransform: "none", marginRight: "2rem" };
 

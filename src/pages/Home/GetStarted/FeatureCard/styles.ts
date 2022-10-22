@@ -2,6 +2,11 @@ export const featureCardWrapper = {
   padding: "1.875rem",
   border: ".063rem solid #E4E4E7",
   borderRadius: ".938rem",
+  ":hover": {
+    transform: "scale(1.05)",
+    border: ".2rem solid #E4E4E7",
+  },
+  cursor: "pointer",
 };
 
 export const featureCardTitle = {
