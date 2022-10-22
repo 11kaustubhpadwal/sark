@@ -1,6 +1,6 @@
 export const contactInfoText = {
   fontSize: "1.313rem",
   lineHeight: "2.125rem",
-  ":hover": { transform: "scale(1.05)" },
+  ":hover": { transform: "scale(1.05)", transition: ".3s" },
   cursor: "pointer",
 };

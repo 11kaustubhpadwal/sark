@@ -17,6 +17,7 @@ export const joinButton = {
   color: "#fff",
   ":hover": {
     background: "#000",
+    transition: ".3s",
   },
   marginRight: "1.375rem",
   textTransform: "none",

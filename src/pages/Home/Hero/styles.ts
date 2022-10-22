@@ -21,6 +21,7 @@ export const heroButton = {
   borderRadius: "1rem",
   ":hover": {
     background: "#0B0B0B",
+    transition: ".3s",
   },
 };
 

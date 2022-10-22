@@ -6,6 +6,7 @@ export const navLinkItem = {
     transform: "scale(1.1)",
     borderBottom: ".25rem solid #12141D",
     paddingBottom: ".5rem",
+    transition: ".3s",
   },
 };
 
@@ -21,5 +22,6 @@ export const getYourCardButton = {
   borderRadius: ".8rem",
   ":hover": {
     background: "#0B0B0B",
+    transition: ".3s",
   },
 };

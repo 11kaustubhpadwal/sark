@@ -11,5 +11,5 @@ export const divider = { margin: "5.5rem 0 2.813rem" };
 export const footerLink = {
   fontSize: 18,
   cursor: "pointer",
-  ":hover": { opacity: ".5" },
+  ":hover": { opacity: ".5", transition: ".3s" },
 };

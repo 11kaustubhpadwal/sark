@@ -1,6 +1,6 @@
 import { Box, Button, Grid } from "@mui/material";
 import cardImg from "../../../assets/card.svg";
-import heroImg from "../../../assets/hero.svg";
+import { ReactComponent as HeroImg } from "../../../assets/hero.svg";
 import Content from "../../../components/Text/Content";
 import Heading from "../../../components/Text/Heading";
 import {
@@ -45,7 +45,7 @@ const Hero = () => {
         </Grid>
       </Grid>
       <Grid item sm>
-        <img src={heroImg} alt="hero" />
+        <HeroImg />
         <img src={cardImg} alt="card" style={cardImgAlignment} />
       </Grid>
     </Grid>

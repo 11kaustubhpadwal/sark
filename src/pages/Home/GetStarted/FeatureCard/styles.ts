@@ -5,6 +5,7 @@ export const featureCardWrapper = {
   ":hover": {
     transform: "scale(1.05)",
     border: ".2rem solid #E4E4E7",
+    transition: ".3s",
   },
   cursor: "pointer",
 };
